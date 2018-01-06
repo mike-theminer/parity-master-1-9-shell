@@ -1,0 +1,125 @@
+{
+  "_from": "github:js-dist-paritytech/dapp-dapp-methods",
+  "_id": "@parity/dapp-dapp-methods@2.0.9",
+  "_inBundle": false,
+  "_location": "/@parity/dapp-dapp-methods",
+  "_phantomChildren": {
+    "@parity/api": "2.1.14",
+    "@parity/etherscan": "2.1.3",
+    "@parity/ledger": "2.1.2",
+    "@parity/shared": "2.2.14",
+    "babel-runtime": "6.26.0",
+    "brace": "0.11.0",
+    "classnames": "2.2.5",
+    "date-difference": "1.0.0",
+    "eventemitter3": "2.0.3",
+    "fbjs": "0.8.16",
+    "file-saver": "1.3.3",
+    "geopattern": "1.2.3",
+    "keycode": "2.1.9",
+    "lodash": "4.17.4",
+    "loose-envify": "1.3.1",
+    "moment": "2.19.2",
+    "object-assign": "4.1.1",
+    "qrcode-generator": "1.3.1",
+    "react-ace": "5.7.0",
+    "react-copy-to-clipboard": "5.0.1",
+    "react-datetime": "2.11.0",
+    "react-dropzone": "4.2.3",
+    "react-element-to-jsx-string": "13.1.0",
+    "react-event-listener": "0.5.2",
+    "react-intl": "2.4.0",
+    "react-markdown": "3.0.2",
+    "react-portal": "4.0.0",
+    "react-qr-reader": "2.0.1",
+    "react-redux": "5.0.6",
+    "react-router": "3.2.0",
+    "react-tooltip": "3.4.0",
+    "recharts": "1.0.0-beta.2",
+    "redux": "3.7.2",
+    "semantic-ui-css": "2.2.12",
+    "zxcvbn": "4.4.2"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "@parity/dapp-dapp-methods@github:js-dist-paritytech/dapp-dapp-methods",
+    "name": "@parity/dapp-dapp-methods",
+    "escapedName": "@parity%2fdapp-dapp-methods",
+    "scope": "@parity",
+    "rawSpec": "github:js-dist-paritytech/dapp-dapp-methods",
+    "saveSpec": "github:js-dist-paritytech/dapp-dapp-methods",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "github:js-dist-paritytech/dapp-dapp-methods#b4dce52a09303fddf55172bb0d2e6bb83f12e196",
+  "_spec": "@parity/dapp-dapp-methods@github:js-dist-paritytech/dapp-dapp-methods",
+  "_where": "/Users/minhhn/Documents/github/parity/js",
+  "author": {
+    "name": "Parity Team",
+    "email": "admin@parity.io"
+  },
+  "bugs": {
+    "url": "https://github.com/paritytech/dapp-dapp-methods/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [],
+  "dependencies": {
+    "@parity/api": "^2.1.14",
+    "@parity/mobx": "^1.0.6",
+    "@parity/ui": "^3.0.22",
+    "mobx": "^3.4.1",
+    "mobx-react": "^4.3.5",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-intl": "^2.4.0",
+    "react-scripts": "1.0.17",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.1"
+  },
+  "deprecated": false,
+  "description": "Allow setting of dapp permissions on a per method level",
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.0"
+  },
+  "homepage": "http://./",
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/**/index.js",
+      "!src/registerServiceWorker.js",
+      "!src/setupTests.js"
+    ]
+  },
+  "keywords": [],
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "maintainers": [],
+  "name": "@parity/dapp-dapp-methods",
+  "proxy": {
+    "/parity-utils": {
+      "target": "http://127.0.0.1:3000"
+    },
+    "/api": {
+      "target": "http://127.0.0.1:3000"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paritytech/dapp-dapp-methods.git"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "watch": "node scripts/watch.js"
+  },
+  "version": "2.0.9"
+}
